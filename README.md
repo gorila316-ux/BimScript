@@ -84,8 +84,8 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 
 | 호스트 | 버전 | 상태 |
 |---|---|---|
-| Revit (+Dynamo 3.x) | 2025 · 2026 | ✅ |
-| AutoCAD / Civil 3D | 2025 · 2026 | ✅ |
+| Revit (+Dynamo 3.x) | 2025 · 2026 · 2027 | ✅ |
+| AutoCAD / Civil 3D | 2025 · 2026 · 2027 | ✅ |
 | Navisworks | — | 예정 |
 
 - **스크립트 작성·저장·팔레트는 모든 지원 호스트에서 동일**합니다. Dynamo 그래프 제어만 Revit 고유.
