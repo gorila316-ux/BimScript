@@ -1,0 +1,44 @@
+MIT License
+
+Copyright (c) 2026 gorila316-ux
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+Third-Party Notices
+
+This software contains or is distributed with the following third-party
+components. Each is the property of its respective copyright holder.
+
+1. BimOnMcp — MIT License (identical to the license text above)
+   Copyright (c) 2026 JungGeun Park (General Soju)
+   https://github.com/General-Soju/BimOnMcp
+   BimScript is derived from BimOnMcp (pipe server, MCP bridge, host
+   plugins), with an independent script palette and installer added.
+
+2. Newtonsoft.Json — MIT License
+   Copyright (c) James Newton-King
+   https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md
+
+3. IronPython — Apache License 2.0
+   Copyright (c) .NET Foundation and Contributors
+   https://github.com/IronLanguages/ironpython3/blob/main/LICENSE
+
+4. IronPython.StdLib — Python Software Foundation License
+   https://docs.python.org/3/license.html
