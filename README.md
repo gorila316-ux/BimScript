@@ -8,6 +8,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 
+<img src="docs/qr-bimscript.png" alt="BimScript 저장소 QR — https://github.com/gorila316-ux/BimScript" width="140">
+
+*모바일에서 스캔하면 이 저장소로 바로 옵니다.*
+
 </div>
 
 BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civil 3D·Dynamo**를 직접 조작할 수
