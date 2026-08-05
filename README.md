@@ -10,7 +10,6 @@
 
 <img src="docs/qr-bimscript.png" alt="BimScript 저장소 QR — https://github.com/gorila316-ux/BimScript" width="140">
 
-*모바일에서 스캔하면 이 저장소로 바로 옵니다.*
 
 </div>
 
