@@ -2,7 +2,7 @@
 
 # BimScript
 
-**Revit과 Civil 3D를 Claude에게 말로 시키세요.**
+**Revit·Civil 3D·Navisworks를 Claude에게 말로 시키세요.**
 
 [![Latest Release](https://img.shields.io/github/v/release/gorila316-ux/BimScript?label=%EC%B5%9C%EC%8B%A0%20%EB%A6%B4%EB%A6%AC%EC%8A%A4&color=2ea44f)](https://github.com/gorila316-ux/BimScript/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -13,7 +13,7 @@
 
 </div>
 
-BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civil 3D·Dynamo**를 직접 조작할 수
+BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civil 3D·Navisworks·Dynamo**를 직접 조작할 수
 있게 됩니다. 조회·수정·자동화를 자연어로 시키고, AI가 만든 스크립트는 팔레트에 저장해
 다음에 재사용합니다.
 
@@ -32,7 +32,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 2. **설치** — Revit·AutoCAD/Civil 3D·Claude Desktop(트레이까지)을 모두 종료한 뒤 실행합니다.
    애드인·MCP 브리지·Claude 등록까지 전부 자동입니다.
 
-   > [!IMPORTANT]
+   > 
    > 설치기 첫 실행 때 파란 SmartScreen 화면이 뜨면 **[추가 정보] → [실행]**.
    >
    > **Civil3D/Revit** 첫 실행 때 보안 창이 뜨면 반드시 **[항상 로드]** 를 누르세요.
@@ -46,16 +46,35 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 
 ## 무엇을 시킬 수 있나요
 
-**실무 활용 예시** — 이렇게 시키면 Claude가 필요한 조회·수정·스크립트를 알아서 조합합니다.
 
-- *"Revit 프로젝트의 객체 목록을 카테고리 기준으로 일람표로 작성해줘"*
-- *"속성정보 중 Mark를 참고해서 교량 하부 구조물에 해당하는 것만 색상을 적용해 가시성 필터링해줘"*
-- *"CAD 도면의 구조물 횡단을 프로파일로 사용하고, Civil 3D 선형을 활용해 Revit에 구조물을 모델링해줘"*
+**Revit — 조회·수정·모델링**
+
+- *"Revit 프로젝트의 객체 목록을 카테고리 기준으로 **일람표로 작성**해줘"*
+- *"속성정보 중 Mark를 참고해서 교량 하부 구조물에 해당하는 것만 색상을 적용해 **가시성 필터링**해줘"*
+- *"**CAD 표준횡단**을 프로파일로 사용하고, Civil 3D 선형을 활용해 Revit에 구조물을 모델링해줘"*
+
+**Civil 3D — 조회·일괄 편집**
+
+- *"도면의 선형 목록과 각 선형의 스타일을 조회해줘"*
+- *"모든 선형의 스타일을 'Proposed'로 **일괄 변경**해줘"* 
+- *"3D 솔리드로 관로계획을 그려 DWG로 저장하고, Navisworks에 추가해서 지장물 모델 세트와 간섭 검토해줘"* (Civil 3D와 Navisworks를 함께 열어둔 상태)
+
+**Dynamo — 그래프 작성·진단**
+
+- *"구조 프레임 전체의 체적을 합산하는 **신규 Dynamo 그래프를 만들어줘**"*
+- *"**현재 Dynamo그래프**에서 경고 상태인 노드를 찾아 원인을 알려줘"*
+
+**Navisworks — 모델 검토·간섭**
+
+- *"특성값(관로구분 = 도수관로)을 기준으로 지장물 **선택 세트를 만들어줘**"*
+- *"지장물 세트와 Civil3D 계획 모델 사이 **간섭 검토를 실행**하고 결과를 알려줘"*
+- *"간섭검토 결과로부터 저장된 **관측점(뷰포인트) 목록을 생성하고 주석을 추가**해줘."*
 
 **스크립트 저장·재사용**
 
-- *"방금 그 코드를 'C3D선형 단면스윕'라는 스크립트로 저장해줘. 태그는 Civil3D, Revit, 조회로."*
-- *"저장된 스크립트 중 'C3D 단면스윕'을 실행해줘"*
+- *"방금 수행한 절차를 '지장물 간섭검토'라는 스크립트로 저장해줘. 태그는 Navisworks, 검토, modifies-drawing으로."*
+  → 열려 있는 팔레트에 즉시 나타납니다
+- *"저장된 스크립트 중 '지장물 간섭검토'를 실행해줘"*
 
 ---
 
@@ -65,6 +84,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 |---|---|
 | Revit | 리본 → **애드인 탭** → BimScript 아이콘 |
 | AutoCAD/Civil 3D | 리본 → **추가 기능 탭** → BimScript 아이콘 |
+| Navisworks | 리본 → **도구 애드인 탭** → BimScript 버튼 — **도킹 패널**로 열립니다 |
 
 - 저장된 스크립트는 **카드 이름 클릭 → [실행] 버튼**으로 재실행합니다.
 - 태그·패널·검색으로 분류하고, 팔레트는 **현재 호스트의 스크립트만** 보여줍니다.
@@ -89,9 +109,9 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 |---|---|---|
 | Revit (+Dynamo 3.x) | 2025 · 2026 · 2027 | ✅ |
 | AutoCAD / Civil 3D | 2025 · 2026 · 2027 | ✅ |
-| Navisworks | — | 예정 |
+| Navisworks Manage | 2025 | ✅ |
 
-- **스크립트 작성·저장·팔레트는 모든 지원 호스트에서 동일**합니다. Dynamo 그래프 제어만 Revit 고유.
+- **스크립트 작성·저장·팔레트는 모든 지원 호스트에서 동일**합니다. Dynamo 그래프 제어는 Revit·Civil 3D에서 지원.
 - Claude Desktop·Claude Code 모두 지원.
 
 ---
