@@ -98,6 +98,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
   나옵니다. 항상 [항상 로드]를 누르세요.
 - **내 스크립트는 어디 저장되나요** — `%APPDATA%\BimScript\`. 제거해도 지워지지 않습니다.
 - **Claude에 도구가 안 보여요** — Claude를 재시작하세요(서버 목록은 시작할 때 읽습니다).
+  **업데이트 설치 후에도 마찬가지**입니다 — 재시작 전까지는 이전 버전의 도구 목록이 그대로 남습니다.
 - **뭔가 이상해요** — 시작 메뉴 → BimScript → **"설치 점검"** 더블클릭. 그 화면 캡처가
   문의의 전부입니다.
 
@@ -107,9 +108,9 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 
 | 호스트 | 버전 | 상태 |
 |---|---|---|
-| Revit (+Dynamo 3.x) | 2025 · 2026 · 2027 | ✅ |
-| AutoCAD / Civil 3D | 2025 · 2026 · 2027 | ✅ |
-| Navisworks Manage | 2025 | ✅ |
+| Revit (+Dynamo) | 2025 · 2026 · 2027 | ✅ |
+| AutoCAD / Civil 3D (+Dynamo) | 2025 · 2026 · 2027 | ✅ |
+| Navisworks Manage | 2025 · 2026 · 2027 | ✅ |
 
 - **스크립트 작성·저장·팔레트는 모든 지원 호스트에서 동일**합니다. Dynamo 그래프 제어는 Revit·Civil 3D에서 지원.
 - Claude Desktop·Claude Code 모두 지원.

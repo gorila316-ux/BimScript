@@ -7,7 +7,7 @@ Revit에서 AI(Claude)로 모델을 조회하고 스크립트를 실행·저장�
 | 항목 | 조건 |
 |---|---|
 | OS | Windows 10/11 (64bit) |
-| 저작도구 | **Revit 2025~2027, AutoCAD·Civil 3D 2025~2027, Navisworks Manage 2025 중 하나 이상** — 설치된 것마다 전부 설치됩니다 |
+| 저작도구 | **Revit 2025~2027, AutoCAD·Civil 3D 2025~2027, Navisworks Manage 2025~2027 중 하나 이상** — 설치된 것마다 전부 설치됩니다 |
 | Claude | Claude Code 또는 Claude Desktop(둘 중 하나 이상 — **Microsoft Store판 Desktop도 지원**) |
 | 별도 런타임 | **불필요** — 브리지는 자체 포함(self-contained), 애드인은 호스트 내장 .NET으로 구동 |
 
@@ -45,7 +45,9 @@ Revit·Civil 3D를 켜면 **"게시자를 확인할 수 없습니다"** 계열�
 
 ### Claude에서 안 보일 때
 
-Claude Code/Desktop을 **재시작**하십시오(MCP 서버 목록은 시작할 때 읽습니다). 그래도 없으면:
+Claude Code/Desktop을 **재시작**하십시오(MCP 서버 목록은 시작할 때 읽습니다).
+**업데이트를 설치한 뒤에도 재시작이 필요합니다** — 살아 있는 세션은 이전 버전의 도구 목록을 계속 씁니다.
+그래도 없으면:
 
 ```bash
 claude mcp list
