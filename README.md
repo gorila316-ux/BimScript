@@ -21,7 +21,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 >
 > **"Civil 3D 선형을 활용해 Revit에 구조물을 모델링해줘"**
 >
-> **"방금 그 코드를 스크립트로 저장해줘"**
+> **"방금 그 코드를 (Phython)스크립트로 저장해줘"**(또는 "Dynamo그래프로 저장해줘")  
 
 ---
 
@@ -86,7 +86,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 |---|---|
 | Revit | 리본 → **애드인 탭** → BimScript 아이콘 |
 | AutoCAD/Civil 3D | 리본 → **추가 기능 탭** → BimScript 아이콘 |
-| Navisworks | 리본 → **도구 애드인 탭** → BimScript 아이콘 |
+| Navisworks | 리본 → **애드인 탭** → BimScript 아이콘 |
 
 - 저장된 스크립트는 **카드 이름 → [실행] 버튼**으로 재실행합니다.
 - **태그**로 기능을 분류하고, 팔레트에서 **태그 검색**을 수행합니다.
@@ -96,11 +96,11 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 
 ## 자주 묻는 것
 
-- **보안 창이 자꾸 떠요** — 버전 업데이트 시마다 다시 나옵니다. [항상 로드]를 누르세요.
-- **내 스크립트는 어디 저장되나요** — `%APPDATA%\BimScript\`. BIMScript를 제거해도 지워지지 않습니다.
-- **Claude에 도구가 안 보여요** — Claude를 재시작하세요(**업데이트 설치 후에도 마찬가지**입니다.).  
+- **"보안 창이 자꾸 떠요"** : 버전 업데이트 시마다 다시 나옵니다. [항상 로드]를 누르세요.
+- **"내 스크립트는 어디 저장되나요?"** : `%APPDATA%\BimScript\`. BIMScript를 제거해도 지워지지 않습니다.
+- **"Claude에 도구가 안 보여요"** : Claude를 재시작하세요(**업데이트 설치 후에도 마찬가지**입니다.).  
   
-- **뭔가 이상해요** — 시작 메뉴 → BimScript → **[설치 점검]** 더블클릭. 캡처 화면을 Github Issue  에 남겨주세요.
+- **"뭔가 이상해요"** : 시작 메뉴 → BimScript → **[설치 점검]** 더블클릭. 캡처 화면을 Github Issue  에 남겨주세요.
 
 ---
 
