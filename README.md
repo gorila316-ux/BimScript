@@ -113,7 +113,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 | Navisworks Manage | 2025 · 2026 · 2027 | ✅ |
 
 - **스크립트 작성·저장·팔레트** UI는 모든 프로그램에서 동일합니다.
-- Claude Desktop·Claude Code 모두 지원.(Codex 지원 예정)
+- **Claude** Desktop·Code, **Codex** Desktop·CLI 모두 지원 — 설치 시 자동 등록됩니다.
 
 ---
 
