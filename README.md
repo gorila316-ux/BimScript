@@ -13,7 +13,7 @@
 
 </div>
 
-BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civil 3D·Navisworks·Dynamo**를 직접 조작할 수있게 됩니다.  
+BimScript를 설치하면 **Claude(Desktop/Code)·Codex(Desktop/CLI)** 가 여러분의 **Revit·Civil 3D·Navisworks·Dynamo**를 직접 조작할 수있게 됩니다.  
 조회·수정·자동화를 자연어로 시키고, AI가 만든 스크립트는 팔레트에 저장해
 다음에 재사용합니다.
 
@@ -21,7 +21,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 >
 > **"Civil 3D 선형을 활용해 Revit에 구조물을 모델링해줘"**
 >
-> **"방금 그 코드를 (Phython)스크립트로 저장해줘"**(또는 "Dynamo그래프로 저장해줘")  
+> **"방금 그 코드를 (Python)스크립트로 저장해줘"**(또는 "Dynamo그래프로 저장해줘")  
 
 ---
 
@@ -29,14 +29,14 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 
 1. **다운로드** — [최신 릴리스](https://github.com/gorila316-ux/BimScript/releases/latest)를
    내려 받습니다.
-2. **설치** — Revit·AutoCAD/Civil 3D·Claude Desktop(트레이까지)을 모두 종료한 뒤 실행합니다.
+2. **설치** — Revit·AutoCAD/Civil 3D·Navisworks·Claude Desktop(트레이까지)·Codex Desktop을 모두 종료한 뒤 실행합니다.
 
    > 
    > **설치기 실행** 시 파란 SmartScreen 화면이 뜨면 **[추가 정보] → [실행]** 을 누르세요 .
    >
    > **Civil3D/Revit** 첫 실행 시 **보안 창**이 뜨면 반드시 **[항상 로드]** 를 누르세요.
 
-3. **말 걸기** — Claude를 켜고(재시작 필요) Revit이나 Civil 3D를 연 상태에서
+3. **말 걸기** — Claude(또는 Codex)를 켜고(재시작 필요) Revit이나 Civil 3D를 연 상태에서
    *"현재 도면에서 무엇을 할 수 있니?"* 라고 해보세요.
 
 자세한 절차·문제해결: **[INSTALL.md](INSTALL.md)**
@@ -98,7 +98,7 @@ BimScript를 설치하면 **Claude(Desktop/Code)** 가 여러분의 **Revit·Civ
 
 - **"보안 창이 자꾸 떠요"** : 버전 업데이트 시마다 다시 나옵니다. [항상 로드]를 누르세요.
 - **"내 스크립트는 어디 저장되나요?"** : `%APPDATA%\BimScript\`. BIMScript를 제거해도 지워지지 않습니다.
-- **"Claude에 도구가 안 보여요"** : Claude를 재시작하세요(**업데이트 설치 후에도 마찬가지**입니다.).  
+- **"Claude/Codex에 도구가 안 보여요"** : 해당 앱을 재시작하세요(**업데이트 설치 후에도 마찬가지**입니다.).  
   
 - **"뭔가 이상해요"** : 시작 메뉴 → BimScript → **[설치 점검]** 더블클릭. 캡처 화면을 Github Issue  에 남겨주세요.
 
